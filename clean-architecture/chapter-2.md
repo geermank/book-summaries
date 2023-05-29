@@ -14,7 +14,7 @@ Every software system provides two different values to the stakeholders:
 #### Behaviour
 Refers to the functionality of the system. Implement functional requirements and fix bugs.
 
-#### Architecture
+#### Architecture
 Our systems must be easy to change. That's why the architecture matters; if they are not easy to change, costs can increase exponentially (due to time and number of developers needed to implement/modify different features).
 
 However, which one provides greater value? Well, if we don't pay attention to architecture, the system may become practically imposible to change (the cost of change exceeds its benefit).

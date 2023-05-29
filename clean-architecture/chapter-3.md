@@ -5,7 +5,7 @@
 
 ## Summary
 
-#### Structured programming
+#### Structured programming
 
 We can summarize the structured programming as:
 
@@ -13,7 +13,7 @@ We can summarize the structured programming as:
 Structured programming imposes discipline on direct transfer of control (removes go-to statements)
 ```
 
-#### Object-oriented programming
+#### Object-oriented programming
 
 We can summarize object-oriented programming as:
 
@@ -21,7 +21,7 @@ We can summarize object-oriented programming as:
 Object-oriented programming imposes discipline on indirect transfer of control (removes function pointers)
 ```
 
-#### Funtional programming
+#### Funtional programming
 
 We can summarize funtional programming as:
 
