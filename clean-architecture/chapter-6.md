@@ -2,7 +2,10 @@
 
 ## Key points
 
-
+- In functional languages, variables cannot mutate.
+- As architects, we are interested in inmmutability since all the problems that concurrent applications can have (such as race conditions), cannot happen when there are no mutable variables.
+- In practice, we'd need infinite storage and processing power to practice inmmutability in the entire application. If we lack these resources, we can practice inmmutability but with making some compromises. One of them is to segregrate our components, having components that are inmmutable and others that are mutable, which would communicate between them. The idea is to push as much code as possible into the immutable components
+- Event sourcing is a practice where we store the transactions but not the state. When we want state, we apply all the transactions from the beginning of time
 
 ## Summary
 
@@ -18,7 +21,7 @@ for (int i = 0; i < 25; i++) {
 
 #### Inmutability and architecture
 
-All the problems we face in concurrent applications (like race conditions) cannot happen in there are no mutable variables. As an architect, you should be very interested in issues of concurrency. You want to make sure that the systems you design will be robust in presence of multiple threads and processors. The question you must be asking yourself, then, is whether immutability is practicable. The answer is yes, if you have infinite storage and processor speed. Lacking those infinite resources, the answer is yes but if certain compromises are made. 
+All the problems we face in concurrent applications (like race conditions) cannot happen when there are no mutable variables. As an architect, you should be very interested in issues of concurrency. You want to make sure that the systems you design will be robust in presence of multiple threads and processors. The question you must be asking yourself, then, is whether immutability is practicable. The answer is yes, if you have infinite storage and processor speed. Lacking those infinite resources, the answer is yes but if certain compromises are made. 
 
 #### Segregation of mutability
 
