@@ -11,13 +11,13 @@
 
 In languages like Java, to loop over a list of elements it uses a mutable variable. That variable is the loop control variable, ´i´ in the next example:
 
-´´´
+```
 for (int i = 0; i < 25; i++) {
     System.out.println(i*i);
 }
-´´´
+```
 
-´i´ changes during the execution of the program. On the other hand, in functional languages like Clojure, we don't have a mutable variable to loop a list. Actually, variables are initialized but never modified. Variables in functional languages do not vary.
+`i` changes during the execution of the program. On the other hand, in functional languages like Clojure, we don't have a mutable variable to loop a list. Actually, variables are initialized but never modified. Variables in functional languages do not vary.
 
 #### Inmutability and architecture
 
